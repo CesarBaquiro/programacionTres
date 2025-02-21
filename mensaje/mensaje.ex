@@ -5,6 +5,7 @@ defmodule Mensaje do
   def main do
     "Mensaje de prueba 1" |> mostrar_mensaje()
 
+    # Ejemplo de como importar un modulo - importar una funcion - importar funcion - importar modulo
     "Mensaje de prueba 2" |> Util.mostrar_mensaje2()
 
     "Ingrese el nombre del empleado" |> Util.ingresar_texto()
@@ -16,4 +17,5 @@ defmodule Mensaje do
   end
 end
 
+# Ejemplo de clase main
 Mensaje.main()

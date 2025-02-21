@@ -1,3 +1,5 @@
+# Ejemplo de como exportar un modulo util
+
 defmodule Util do
   def mostrar_mensaje2(mensaje) do
     IO.puts("#{mensaje}")
@@ -12,3 +14,6 @@ defmodule Util do
     IO.puts("Hola #{nombre}")
   end
 end
+
+# Usar el comando para compilar:
+# elixirc <nombre del archivo>
